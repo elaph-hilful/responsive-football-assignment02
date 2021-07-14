@@ -1,0 +1,186 @@
+/* common styles or utilities */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style of Banner */
+.banner-section {
+  width: 1430;
+  height: 553px;
+  display: flex;
+  background-color: #2d25a0;
+}
+.banner {
+  margin-top: 100px;
+}
+.banner-title {
+  margin-left: 161px;
+  font-weight: 700px;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+a {
+  margin-top: 27px;
+  margin-left: 156px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: #ffffff;
+}
+.banner-img img:hover {
+  transform: rotate(360deg) translate(-20px, 0px);
+  transition: 3s;
+}
+.banner-img img {
+  width: 556px;
+  height: 438px;
+  left: 1299.01px;
+  top: 500px;
+}
+/*Style for Players*/
+.players {
+  margin-top: 75px;
+  margin-left: 150px;
+  margin-right: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player-details {
+  margin-right: 27px;
+  margin-bottom: 36px;
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+  padding: 15px;
+}
+h2,
+p {
+  padding: 0px 0px 0px 15px;
+}
+/* video section*/
+.video {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  margin-left: 500px;
+  justify-content: center;
+}
+.video-text {
+  text-align: center;
+}
+/* Sponsor Part*/
+
+.title {
+  text-align: center;
+}
+.partners {
+  display: inline-flex;
+  margin-left: 100px;
+}
+.sponsor img {
+  width: 80px;
+  height: 70px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+/*
+ Style for Footer  */
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 483.87px;
+  height: 110px;
+  margin-left: 14px;
+}
+
+.fab {
+  color: #969bab;
+  flex: none;
+  order: 3;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 14px;
+}
+/*Responsive section styles*/
+@media only screen and (max-width: 688px) {
+  .banner-sectio {
+    width: 400px;
+    flex-direction: column;
+    grid-row-gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    padding: 65px 16px;
+  }
+  .text {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+  .banner-img {
+    width: 329px;
+    height: 259px;
+  }
+
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+  }
+  .player img {
+    width: 100%;
+    height: auto;
+  }
+  .Highlights {
+    text-align: center;
+  }
+  .footer-area {
+    width: 100%;
+    height: 80px;
+    margin: -20px 0;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 1024px) {
+  .banner-section {
+    width: 400px;
+    flex-direction: column;
+    grid-row-gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    padding: 65px 16px;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .text {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+  }
+  .banner-img {
+    width: 329px;
+    height: 259px;
+  }
+  .player img {
+    width: 100%;
+    height: auto;
+  }
+  .Highlights {
+    text-align: center;
+  }
+  .footer-area {
+    width: 100%;
+    height: 80px;
+    margin: -20px 0;
+  }
+}
