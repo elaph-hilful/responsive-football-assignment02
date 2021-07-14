@@ -41,8 +41,8 @@ a {
 /*Style for Players*/
 .players {
   margin-top: 75px;
-  margin-left: 150px;
-  margin-right: 250px;
+  margin-left: 180px;
+  margin-right: 210px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
